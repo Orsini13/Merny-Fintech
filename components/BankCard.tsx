@@ -1,4 +1,5 @@
 import { formatAmount } from '@/lib/utils'
+import Image from 'next/image'
 import Link from 'next/link'
 import { format } from 'path'
 import React from 'react'
@@ -23,15 +24,38 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
                                 {userName}
                             </h1>
                             <h2 className='text-12 font-semibold text-white'>
-                                ** / **
+                                * / *
                             </h2>
                         </div>
                         <p className='text-14 font-semibold tracking-[1.1px] text-white'></p>
-                        **** **** **** <span className='text-16'>${account.mask}</span>
+                        *
+                         <span className='text-16'>1234</span>
                     </article>
                 </div>
+                <div className='bank-card_icon'>
+                    <Image
+                        src="/icons/Paypass.svg"
+                        alt='pay'
+                        width={20}
+                        height={24}
+                    />
+                    <Image
+                        src="/icons/mastercard.svg"
+                        alt='mastercard'
+                        width={45}
+                        height={32}
+                        className='ml-5'
+                    />
+                </div>
 
-                
+                <Image
+                    src="/icons/lines.svg"
+                    alt='lines'
+                    width={316}
+                    height={190}
+                    className='absolute top-0 left-o'
+                />
+
             </Link>
 
         </div>
