@@ -24,11 +24,11 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
                                 {userName}
                             </h1>
                             <h2 className='text-12 font-semibold text-white'>
-                                * / *
+                                ●● / ●●
                             </h2>
                         </div>
                         <p className='text-14 font-semibold tracking-[1.1px] text-white'></p>
-                        *
+                        ●●●● ●●●● ●●●●
                          <span className='text-16'>1234</span>
                     </article>
                 </div>
