@@ -5,8 +5,7 @@ const SignIn = () => {
   return (
     <section className='flex-center size-full max-sm:p-6'>
       <AuthForm 
-      
-      type="sign-in"/>
+       type='sign-in'/>
 
     </section>
   )
