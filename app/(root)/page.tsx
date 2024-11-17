@@ -27,11 +27,11 @@ const Home = async  () => {
        
       </div> 
       
-      <RightSidebar 
+      {/* <RightSidebar 
           user={loggedIn}
           transactions={[]}
-          banks={[{currentBalance: 123.50},{currentBalance: 500.50}]}
-        />
+          // banks={[{currentBalance: 123.50},{currentBalance: 500.50}]}
+        /> */}
     </section>
   )
 }
