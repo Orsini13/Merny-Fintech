@@ -1,7 +1,7 @@
-// src/lib/server/appwrite.js
 'use server'
 import { Client, Account, Databases, Users } from 'node-appwrite'
 import { cookies } from 'next/headers'
+// src/lib/server/appwrite.js
 
 export async function createSessionClient() {
   const client = new Client()
